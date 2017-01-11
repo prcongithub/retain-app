@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 			<app-bar></app-bar>
 			<main>
 				<h3>Hello World! Welcome to AngularJS</h3>
-				<notes-container></notes-container>
+				<router-outlet></router-outlet>
 			</main>
 		</div>
 	`

@@ -19,7 +19,7 @@ export class ApiService {
 		'Accept': 'application/json'
 	});
 
-	api_url: string = 'https://localapi.ur-nl.com';
+	api_url: string = 'http://localhost:3500';
 
 	constructor(private http: Http) {
 
